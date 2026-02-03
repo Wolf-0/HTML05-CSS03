@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(112, 109, 111);
+            margin: 0%;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(80, 74, 74);
+            padding: 3px;
+            box-shadow: 5px 3px 20px black;
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: wheat;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.438);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        article > aside{
+            background-color: rgb(163, 162, 162);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0%;
+        }
+
+        #assuntos{
+            text-align: center;
+            background-color: lightgrey;
+            margin: auto;
+        }
+
+        p{
+            text-align: justify;
+        }
+       
+       #bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+       }
+
+
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Meu site</h1>
+       <nav>
+        <a href="https://www.youtube.com/?gl=BR&hl=pt" target="_blank">Youtube</a>
+        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">Facebook</a>
+        <a href="https://www.netflix.com/br/" target="_blank">netflix</a>
+        <a href="https://www.visioncine-1.com.br/" target="_blank">Vision Cine</a>
+       </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2><a href="https://ge.globo.com/" target="_blank">Esportes</a>
+            <a href="https://g1.globo.com/politica/" target="_blank"> Política</a>
+             <a href="https://olhardigital.com.br/" target="_blank">Tecnologia</a></h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Noticias do Brasil</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui iusto labore, id nesciunt, ad nisi repellendus soluta doloribus vel doloremque ea cupiditate corporis maxime neque provident est dolorem incidunt architecto?</p>
+                <aside>
+                    <p>Artigo escrito por John</p>
+                </aside>
+            </article>
+            
+        </section>
+
+    </main>
+    <main>
+        <section id="assuntos">
+            <h2>Economia</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>A ALICE É LINDA</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui iusto labore, id nesciunt, ad nisi repellendus soluta doloribus vel doloremque ea cupiditate corporis maxime neque provident est dolorem incidunt architecto?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae est, possimus maiores, ad ab magnam nihil incidunt nam accusamus unde sit sint porro quaerat? Dolor minus magni delectus voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est accusantium laborum quas. Vero dolore, facilis consectetur at officia quas rerum? Consequuntur harum exercitationem eos aliquam quo omnis saepe incidunt! Voluptatibus.
+                </p>
+                <aside>
+                    <p>Artigo escrito por John</p>
+                </aside>
+            </article>
+            
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por John
+
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

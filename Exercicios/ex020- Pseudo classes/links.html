@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Liks</title>
+    <style>
+
+        /*
+          #  = id
+          .  = class
+          :  = pseudo-class
+          :: = pseudo-element
+          >  = clildren (filho)
+
+
+        */
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: brown;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::after{
+            content: '⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="http://gustavoguanabara.github.io" target="_blank">Repositorio Github</a></li>
+        <li><a href="http://youtube.com/cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+        <li><a href="http://www.cursoemvideo.com" target="_blank">Site do cursoemvideo</a></li>
+    </ul>
+</body>
+</html>

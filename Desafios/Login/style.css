@@ -101,6 +101,18 @@ body *{
     color: #00000094;
 }
 
+#senha{
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    
+}
+
+#senha > a{
+    color: #0f8a50;
+
+}
+
 .btn-login{
     width: 100%;
     padding: 16px 0px;
